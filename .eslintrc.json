@@ -1,0 +1,28 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es2020": true
+    },
+    "extends": [
+        "standard",
+        "raven"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 11
+    },
+    "rules": {
+        "indent": ["error", 4],
+        "sort-keys": "off",
+        "linebreak-style": "off",
+        "consistent-return": "off",
+        "prefer-destructuring": "off",
+        "no-magic-numbers" :"off",
+        "no-console": "off",
+        "camelcase": "off",
+        "complexity": [
+            "warn",
+            15
+        ]
+    }
+}
